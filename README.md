@@ -7,7 +7,6 @@ A #1 SKID GRABBER!!!
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/capped-uwu/Grabbercord?style=flat&color=8697611)
 ![GitHub last commit](https://img.shields.io/github/last-commit/capped-uwu/Grabbercord)
 
-![62b90830113710bfae0eba80_discord_icon (1) (1)](https://github.com/capped-uwu/Grabbercord/assets/166282207/08b7720d-7ddd-4108-b312-68419471a549)
+[![DiscordLink]((https://github.com/capped-uwu/Grabbercord/assets/166282207/08b7720d-7ddd-4108-b312-68419471a549))]((https://discord.gg/W9kmeDQFNG))
 
-https://discord.gg/W9kmeDQFNG
 boost pls
