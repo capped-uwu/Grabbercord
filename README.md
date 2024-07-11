@@ -1,5 +1,6 @@
 # Grabbercord
 A #1 SKID GRABBER!!!
+
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/capped-uwu/Grabbercord/total?color=8697611)
 ![GitHub Repo stars](https://img.shields.io/github/stars/capped-uwu/Grabbercord?style=plastic&color=8697611)
 
