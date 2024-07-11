@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grabbercord</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background: white;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 40px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 1px;
+        }
+        header h2 {
+            margin: 15px 0 30px;
+            font-size: 1.5em;
+            font-weight: 300;
+        }
+        .button-container {
+            margin: 30px 0;
+        }
+        .button {
+            background: #61dafb;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+        .button:hover {
+            background: #21a1f1;
+        }
+        .content {
+            padding: 40px 20px;
+        }
+        .card {
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            width: 80%;
+            max-width: 600px;
+        }
+        .version-info {
+            text-align: left;
+            font-size: 1.2em;
+        }
+        .version-info .version {
+            font-weight: bold;
+        }
+        .version-info .description {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .download-latest, .download-button {
+            font-size: 1.2em;
+            padding: 15px 30px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 50px;
+            transition: background 0.3s ease;
+        }
+        .download-latest {
+            background: #ff5722;
+            color: white;
+        }
+        .download-latest:hover {
+            background: #e64a19;
+        }
+        .download-button {
+            background: #673ab7;
+            color: white;
+        }
+        .download-button:hover {
+            background: #512da8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grabbercord</h1>
+        <h2>a #1 skid grabber.</h2>
+        <div class="button-container">
+            <a href="https://discord.gg/W9kmeDQFNG" class="button">Discord</a>
+            <a href="https://github.com/capped-uwu/Grabbercord" class="button">GitHub</a>
+        </div>
+    </header>
+    <div class="content">
+        <a href="https://github.com/capped-uwu/Grabbercord/releases/download/1.0/genv1.exe" class="download-latest">Download Latest</a>
+        <p>
+        <div class="card">
+            <div class="version-info">
+                <div class="version">Version 1.0</div>
+                <div class="description">Added token grab</div>
+            </div>
+            <a href="https://github.com/capped-uwu/Grabbercord/releases/download/1.0/genv1.exe" class="download-button">Download</a>
+        </div>
+        <p></p>
+        <div class="card">
+            <div class="version-info">
+                <div class="version">Version Beta</div>
+                <div class="description">First Version</div>
+            </div>
+            <a href="https://github.com/capped-uwu/Grabbercord/releases/download/beta/gen.exe" class="download-button"></a>
+        </div>
+    </div>
+</body>
+</html>
