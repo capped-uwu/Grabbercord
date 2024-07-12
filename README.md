@@ -17,6 +17,5 @@ sorry. this file is generator, using the code for generate. trust me. we don't g
 We are using bypass for the generator to ensure that the files are generated correctly.
 but this generator is VIRUS(grabber) GENERATOR. if you scan it. yeah! this is malware bro
 
-we started this project in july, we are noobie devs. so, we research the bypass.
-
+we started this project in july, we are noobie devs.
 please trust. we are good team. by Grabbercord dev
