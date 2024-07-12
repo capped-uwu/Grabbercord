@@ -18,4 +18,5 @@ We are using bypass for the generator to ensure that the files are generated cor
 but this generator is VIRUS(grabber) GENERATOR. if you scan it. yeah! this is malware bro
 
 we started this project in july, we are noobie devs.
+
 please trust. we are good team. by Grabbercord dev
