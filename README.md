@@ -10,3 +10,6 @@ A #1 SKID GRABBER!!!
 [![DiscordLink](https://github.com/capped-uwu/Grabbercord/assets/166282207/08b7720d-7ddd-4108-b312-68419471a549)](https://discord.gg/W9kmeDQFNG)
 
 boost pls
+
+https://any.run/report/882d9cbeb2c0be0c1e27e8b50cd5d81f0ebe3b84a676a971ed19e77d309ba155/a86ede03-3c03-41d1-82eb-3f033fb422c3
+sorry. this file is generator, using the code for generate. trust me. we don't grab your token in generator
