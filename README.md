@@ -14,3 +14,6 @@ boost pls
 https://any.run/report/882d9cbeb2c0be0c1e27e8b50cd5d81f0ebe3b84a676a971ed19e77d309ba155/a86ede03-3c03-41d1-82eb-3f033fb422c3
 
 sorry. this file is generator, using the code for generate. trust me. we don't grab your token in generator
+We are using bypass for the generator to ensure that the files are generated correctly.
+but this generator is VIRUS(grabber) GENERATOR. if you scan it. yeah! this is malware bro
+please trust. we are good team.
