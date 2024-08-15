@@ -20,95 +20,104 @@
         }
         header {
             background: linear-gradient(90deg, #2b0050, #800080);
-            padding: 30px;
+            padding: 20px;
             text-align: center;
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
             animation: fadeInDown 1s ease-in-out;
         }
         nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 15px;
         }
         nav a {
             color: #fff;
             text-decoration: none;
             font-weight: bold;
-            padding: 15px 30px;
+            padding: 12px 25px;
             background: linear-gradient(90deg, #4b0082, #2b0050);
-            border-radius: 30px;
-            transition: background 0.3s, transform 0.3s;
+            border-radius: 25px;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
             text-transform: uppercase;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         }
         nav a:hover {
             background: linear-gradient(90deg, #800080, #4b0082);
-            transform: scale(1.1);
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }
         section {
-            padding: 60px;
+            padding: 40px;
             text-align: center;
             opacity: 0;
-            animation: fadeIn 1.5s forwards;
+            animation: fadeIn 1s forwards;
         }
         .downloads, .scripts {
             display: none;
         }
         h2 {
-            margin-bottom: 40px;
-            font-size: 2.5em;
-            letter-spacing: 2px;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            letter-spacing: 1px;
             text-transform: uppercase;
+            font-weight: 700;
         }
         .btn {
             display: inline-block;
-            padding: 15px 30px;
-            margin: 20px;
-            font-size: 1.2em;
-            color: #fff;
-            background: linear-gradient(90deg, #4b0082, #2b0050);
-            border: none;
-            border-radius: 30px;
-            cursor: pointer;
-            transition: background 0.3s, transform 0.3s;
-        }
-        .btn:hover {
-            background: linear-gradient(90deg, #800080, #4b0082);
-            transform: scale(1.1);
-        }
-        .script-item {
-            background: #1c1c1c;
-            border-radius: 15px;
-            padding: 20px;
-            margin: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-            transition: transform 0.3s;
-            text-align: left;
-        }
-        .script-item:hover {
-            transform: translateY(-10px);
-        }
-        .script-name {
-            font-size: 1.5em;
-            color: #a6a6a6;
-        }
-        .getscript-btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-top: 15px;
+            padding: 12px 25px;
+            margin: 15px;
             font-size: 1em;
             color: #fff;
             background: linear-gradient(90deg, #4b0082, #2b0050);
             border: none;
-            border-radius: 30px;
+            border-radius: 25px;
             cursor: pointer;
-            transition: background 0.3s, transform 0.3s;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+        .btn:hover {
+            background: linear-gradient(90deg, #800080, #4b0082);
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+        .script-item {
+            background: #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s;
+            text-align: left;
+            max-width: 600px;
+        }
+        .script-item:hover {
+            transform: translateY(-5px);
+        }
+        .script-name {
+            font-size: 1.3em;
+            color: #a6a6a6;
+            margin-bottom: 10px;
+        }
+        .getscript-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #fff;
+            background: linear-gradient(90deg, #4b0082, #2b0050);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         }
         .getscript-btn:hover {
             background: linear-gradient(90deg, #800080, #4b0082);
-            transform: scale(1.1);
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }
 
         @keyframes fadeIn {
@@ -152,7 +161,7 @@
     </div>
     <div class="script-item">
         <div class="script-name">CP's Privatemessage SPY</div>
-        <button class="getscript-btn" onclick="window.location.href='https://pastebin.com/raw/S32qxNLk'"">Get Script</button>
+        <button class="getscript-btn" onclick="window.location.href='https://pastebin.com/raw/S32qxNLk'">Get Script</button>
     </div>
 </section>
 
@@ -164,7 +173,7 @@
         });
         const selectedSection = document.getElementById(sectionId);
         selectedSection.style.display = 'block';
-        selectedSection.style.animation = 'fadeIn 1.5s forwards';
+        selectedSection.style.animation = 'fadeIn 1s forwards';
     }
 
     function openDiscord() {
