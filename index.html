@@ -58,7 +58,7 @@
             opacity: 0;
             animation: fadeIn 1.2s forwards;
         }
-        .downloads, .scripts, .members {
+        .downloads, .scripts, .members, .tutorial {
             display: none;
         }
         h2 {
@@ -143,6 +143,44 @@
             margin-bottom: 10px;
         }
 
+        .partner-item {
+            background: #1a1a1a;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 15px auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: transform 0.4s;
+            text-align: left;
+            max-width: 600px;
+            animation: popIn 1.2s ease-in-out forwards;
+        }
+        .partner-item:hover {
+            transform: translateY(-10px);
+        }
+        .partner-name {
+            font-size: 1.3em;
+            color: #a6a6a6;
+            margin-bottom: 10px;
+        }
+        .pjoindiscord-btn {
+            display: inline-block;
+            padding: 8px 15px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #fff;
+            background: linear-gradient(90deg, #4b0082, #2b0050);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.4s, transform 0.4s, box-shadow 0.4s;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+        }
+        .pjoindiscord-btn:hover {
+            background: linear-gradient(90deg, #800080, #4b0082);
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
@@ -166,6 +204,8 @@
         <a href="#downloads" onclick="showSection('downloads')">Downloads</a>
         <a href="#scripts" onclick="showSection('scripts')">Scripts</a>
         <a href="#members" onclick="showSection('members')">Member</a>
+        <a href="#tutorial" onclick="showSection('tutorial')">Tutorial</a>
+        <a href="#partner" onclick="showSection('partner')">Partners</a>
         <a href="#discord" onclick="openDiscord()">Discord</a>
     </nav>
 </header>
@@ -205,23 +245,38 @@
     </div>
 </section>
 
+<section id="tutorial" class="tutorial">
+    <h2>Tutorial</h2>
+    <h3>Here is the Grabbercord*1 s tutorial!</h3>
+    <h4>1. make the cfg file!</h4>
+    <h4>2. generate the file!(select the cfg)</h4>
+    <h4>you can edit the cfg file.</h4>
+    <h5>*1 a software. you can download in "Downloads"</h5>
+</section>
+
+<section id="partner" class="partner">
+    <h2>Partner's discord server!</h2>
+    <div class="partner-item">
+        <div class="partner-name">"roblox hack" by muuchan(muu1233)</div>
+        <button class="pjoindiscord-btn" onclick="jd1()">Join discord</button>
+    </div>
+</section>
+
 <script>
-    function showSection(sectionId) {
-        document.querySelectorAll('section').forEach(section => {
-            section.style.display = 'none';
-            section.style.opacity = '0';
-        });
-        document.getElementById(sectionId).style.display = 'block';
-        setTimeout(() => {
-            document.getElementById(sectionId).style.opacity = '1';
-        }, 100);
+    function showSection(section) {
+        document.querySelectorAll('section').forEach(sec => sec.style.display = 'none');
+        document.getElementById(section).style.display = 'block';
     }
+
     function openDiscord() {
         window.location.href = "https://discord.gg/W9kmeDQFNG";
     }
-    window.onload = () => {
-        showSection('home');
-    };
+
+    function jd1() {
+        window.location.href = "https://discord.gg/UFZEJn7ttQ";
+    }
+
+    showSection('home');
 </script>
 
 </body>
